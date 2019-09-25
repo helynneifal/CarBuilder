@@ -5,12 +5,13 @@ import java.util.List;
 
 import builder.i514.CeltaBuilder;
 import builder.i524.FuscaBuilder;
+import builder.i524.RangeroverBuilder;
 import builder.profa.KaBuilder;
 
 public class Main {
 	
 	public static void main(String[] args) {
-
+		
 		// ->
 		outputMsg ( new CarDealershipDirector(new KaBuilder()) );
 		// <-
@@ -20,7 +21,9 @@ public class Main {
   
     // -> 524 example
 		outputMsg ( new CarDealershipDirector(new FuscaBuilder()) );
-  
+		
+		outputMsg ( new CarDealershipDirector(new RangeroverBuilder()) );
+
 	}
 	
 	private static void outputMsg(CarDealershipDirector carDealership) {
