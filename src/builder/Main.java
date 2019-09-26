@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import builder.i514.CeltaBuilder;
+import builder.i514.PeelP50Builder;
 import builder.i524.FuscaBuilder;
 import builder.profa.KaBuilder;
 
@@ -17,6 +18,9 @@ public class Main {
 		
 		// -> 514 example
 		outputMsg ( new CarDealershipDirector(new CeltaBuilder()) );
+		
+		// -> 514 Ryan&genildo
+		outputMsg ( new CarDealershipDirector(new PeelP50Builder()) );
   
     // -> 524 example
 		outputMsg ( new CarDealershipDirector(new FuscaBuilder()) );
