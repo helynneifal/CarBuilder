@@ -3,6 +3,7 @@ package builder;
 import java.util.ArrayList;
 import java.util.List;
 
+import builder.i514.A7SportbackBuilder;
 import builder.i514.CeltaBuilder;
 import builder.i524.FuscaBuilder;
 import builder.profa.KaBuilder;
@@ -17,9 +18,13 @@ public class Main {
 		
 		// -> 514 example
 		outputMsg ( new CarDealershipDirector(new CeltaBuilder()) );
+		
+		outputMsg ( new CarDealershipDirector(new A7SportbackBuilder()) );
   
     // -> 524 example
 		outputMsg ( new CarDealershipDirector(new FuscaBuilder()) );
+		
+		
   
 	}
 	
