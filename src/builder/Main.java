@@ -6,6 +6,7 @@ import java.util.List;
 import builder.i514.CeltaBuilder;
 import builder.i524.FuscaBuilder;
 import builder.profa.KaBuilder;
+import builder.i514.PorscheBuilder;
 
 public class Main {
 	
@@ -20,6 +21,8 @@ public class Main {
   
     // -> 524 example
 		outputMsg ( new CarDealershipDirector(new FuscaBuilder()) );
+		
+		outputMsg ( new CarDealershipDirector(new PorscheBuilder()) );
   
 	}
 	
