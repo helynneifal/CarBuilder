@@ -1,5 +1,3 @@
-
-
 package builder;
 
 import java.util.ArrayList;
@@ -13,6 +11,7 @@ import builder.i524.BrasiliaBuilder;
 import builder.i524.HondaCivicBuilder;
 import builder.i524.FuscaBuilder;
 import builder.i524.T77Builder;
+import builder.i524.CinquecentoBuilder;
 import builder.profa.KaBuilder;
 
 public class Main {
@@ -36,6 +35,8 @@ public class Main {
 		outputMsg ( new CarDealershipDirector(new BrasiliaBuilder()) );
     
     outputMsg ( new CarDealershipDirector(new HondaCivicBuilder()) );
+    
+    outputMsg ( new CarDealershipDirector(new CinquecentoBuilder()) );
 	}
 	
 	private static void outputMsg(CarDealershipDirector carDealership) {
@@ -62,4 +63,3 @@ public class Main {
 	}
 	
 }
-
