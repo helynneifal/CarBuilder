@@ -4,14 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 import builder.i514.CeltaBuilder;
-
 import builder.i524.AudiA8LBuilder;
-
 import builder.i524.BrasiliaBuilder;
 import builder.i524.HondaCivicBuilder;
 import builder.i524.FuscaBuilder;
 import builder.i524.T77Builder;
 import builder.i524.CinquecentoBuilder;
+import builder.i524.RangeroverBuilder;
 import builder.profa.KaBuilder;
 
 public class Main {
@@ -37,6 +36,9 @@ public class Main {
     outputMsg ( new CarDealershipDirector(new HondaCivicBuilder()) );
     
     outputMsg ( new CarDealershipDirector(new CinquecentoBuilder()) );
+    
+    outputMsg ( new CarDealershipDirector(new RangeroverBuilder()) );
+
 	}
 	
 	private static void outputMsg(CarDealershipDirector carDealership) {
