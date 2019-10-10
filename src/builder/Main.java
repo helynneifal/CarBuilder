@@ -9,6 +9,7 @@ import builder.i514.SienaBuilder;
 import builder.i514.Sudabuilder;
 import builder.i514.PeelP50Builder;
 import builder.i514.CeltaBuilder;
+import builder.i514.DucatoBuilder;
 import builder.i524.AudiA8LBuilder;
 import builder.i524.BrasiliaBuilder;
 import builder.i524.HondaCivicBuilder;
@@ -38,6 +39,8 @@ public class Main {
     outputMsg ( new CarDealershipDirector(new SienaBuilder()) );
     
     outputMsg ( new CarDealershipDirector(new PeelP50Builder()) );
+    
+    outputMsg ( new CarDealershipDirector(new DucatoBuilder()) );
     
 		// -> 524 example
 		outputMsg ( new CarDealershipDirector(new FuscaBuilder()) );
