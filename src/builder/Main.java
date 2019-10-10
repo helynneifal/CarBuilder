@@ -5,6 +5,7 @@ import java.util.List;
 
 import builder.i514.PorscheBuilder;
 import builder.i514.A7SportbackBuilder;
+import builder.i514.OnixBuilder;
 import builder.i514.SienaBuilder;
 import builder.i514.Sudabuilder;
 import builder.i514.PeelP50Builder;
@@ -31,6 +32,8 @@ public class Main {
 		outputMsg ( new CarDealershipDirector(new CeltaBuilder()) );
     
     outputMsg ( new CarDealershipDirector(new PorscheBuilder()) );
+    
+    outputMsg ( new CarDealershipDirector(new OnixBuilder()) );
     
     outputMsg ( new CarDealershipDirector(new A7SportbackBuilder()) );
     
@@ -83,4 +86,5 @@ public class Main {
 	}
 	
 }
+
 
