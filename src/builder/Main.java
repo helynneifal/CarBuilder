@@ -3,6 +3,7 @@ package builder;
 import java.util.ArrayList;
 import java.util.List;
 
+import builder.i514.PorscheBuilder;
 import builder.i514.SienaBuilder;
 import builder.i514.PeelP50Builder;
 import builder.i514.CeltaBuilder;
@@ -25,6 +26,8 @@ public class Main {
 		
 		// -> 514 example
 		outputMsg ( new CarDealershipDirector(new CeltaBuilder()) );
+    
+    outputMsg ( new CarDealershipDirector(new PorscheBuilder()) );
   
     outputMsg ( new CarDealershipDirector(new SienaBuilder()) );
     
@@ -71,5 +74,3 @@ public class Main {
 	}
 	
 }
-
-
