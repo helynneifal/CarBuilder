@@ -3,6 +3,7 @@ package builder;
 import java.util.ArrayList;
 import java.util.List;
 
+import builder.i514.RelampagoMarquinhosBuilder;
 import builder.i514.PorscheBuilder;
 import builder.i514.A7SportbackBuilder;
 import builder.i514.OnixBuilder;
@@ -29,6 +30,8 @@ public class Main {
 		// <-
 		
 		// -> 514 example
+    		outputMsg ( new CarDealershipDirector(new RelampagoMarquinhosBuilder()) );
+    
 		outputMsg ( new CarDealershipDirector(new CeltaBuilder()) );
     
     outputMsg ( new CarDealershipDirector(new PorscheBuilder()) );
@@ -86,5 +89,3 @@ public class Main {
 	}
 	
 }
-
-
