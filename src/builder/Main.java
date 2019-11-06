@@ -15,6 +15,7 @@ import builder.i514.DucatoBuilder;
 import builder.i524.AudiA8LBuilder;
 import builder.i524.BrasiliaBuilder;
 import builder.i524.HondaCivicBuilder;
+import builder.i524.PicapeBuilder;
 import builder.i524.FuscaBuilder;
 import builder.i524.T77Builder;
 import builder.i524.CinquecentoBuilder;
@@ -62,6 +63,8 @@ public class Main {
     outputMsg ( new CarDealershipDirector(new CinquecentoBuilder()) );
     
     outputMsg ( new CarDealershipDirector(new RangeroverBuilder()) );
+    
+    outputMsg ( new CarDealershipDirector(new PicapeBuilder()) );
 
 	}
 	
